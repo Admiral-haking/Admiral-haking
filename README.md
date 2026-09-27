@@ -1,40 +1,80 @@
-# 👋 Hi, I'm Ali Kheiri (Admiral-haking)
+# Ali Kheiri
 
-**AI/MLOps Engineer** | Building production-grade AI systems end-to-end
+**Backend Engineer (in progress) · CS Student · Building distributed systems & AI infrastructure**
+
+I'm a computer science student focused on backend engineering and system design.  
+Currently learning by building real systems: authentication, job scheduling, and AI infrastructure.  
+I care about clean architecture, observability, and understanding the fundamentals — not just shipping code.
 
 ---
 
-## 🧠 What I Do
+## 🎯 Current Focus
 
-I architect and build **AI-powered systems** that go from research ideas to production deployments. My focus is on **MLOps**, **LLM orchestration**, and **scalable backend architectures**.
+- **Backend Engineering:** NestJS, PostgreSQL, Redis, distributed systems
+- **AI Infrastructure:** LLM orchestration, MLOps fundamentals, evaluation pipelines
+- **System Design:** authentication, scheduling, event-driven architecture
 
-## 🏆 Featured Projects
+---
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [🧪 **MLOps from Scratch**](https://github.com/Admiral-haking/mlops-from-scratch) | End-to-end MLOps pipeline with A/B testing & drift monitoring | Python, FastAPI, MLflow, scikit-learn |
-| [🤖 **Agentin**](https://github.com/Admiral-haking/agentin) | Multi-LLM Instagram DM bot with PostgreSQL memory | FastAPI, PostgreSQL, Docker |
-| [📈 **Trading Platform**](https://github.com/Admiral-haking/trading-platform) | Real-time crypto trading with AI signals | Next.js, WebSocket, Express, DeepSeek |
-| [🧠 **AI Orchestra Pro**](https://github.com/Admiral-haking/ai-orchestra-pro) | Multi-agent LLM orchestration framework | FastAPI, LangGraph, OpenTelemetry |
-| [⚡ **perf-trace**](https://github.com/Admiral-haking/perf-trace) | Lightweight Python execution time decorator | Python, PyPI |
-| [📚 **Research Log**](https://github.com/Admiral-haking/research-log) | Paper summaries & implementations | Ongoing |
+## 🏗️ Projects
 
-## 🛠️ Tech Arsenal
+### 🔐 IAM / SSO System
+Centralized identity and access management service with OAuth2 and OIDC support.
+- Access & refresh token rotation, RBAC, audit logging
+- Multi-tenant architecture, key rotation, rate limiting
+- **Stack:** NestJS, TypeScript, PostgreSQL, Redis, Docker
+- **Status:** In development
+- **Repo:** [link]
 
-**Languages:** Python, TypeScript, JavaScript, C++, Lua
-**Frameworks:** FastAPI, Next.js, React, Express, Django
-**ML/AI:** Transformers, scikit-learn, MLflow, LangChain, LangGraph
-**DevOps:** Docker, GitHub Actions, Nginx, PM2, Proxychains
-**Databases:** PostgreSQL, MongoDB, Redis, SQLite
+### ⏱️ Distributed Job Scheduler
+A system for scheduling and orchestrating background jobs across multiple workers.
+- Cron & interval jobs, priority queues, retry with exponential backoff
+- Leader election, distributed locks, dead letter queue
+- **Stack:** NestJS, Redis, PostgreSQL, BullMQ
+- **Status:** In development
+- **Repo:** [link]
 
-## 📊 GitHub Stats
+### 🧪 MLOps Pipeline *(smaller scope, real code)*
+End-to-end pipeline for training, evaluating, and monitoring a model.
+- Experiment tracking with MLflow
+- Drift detection, A/B testing between model versions
+- **Stack:** Python, FastAPI, MLflow, scikit-learn
+- **Repo:** [link]
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Admiral-haking&show_icons=true&theme=dark)
+### 🤖 LLM Orchestration Experiment
+A small framework to chain multiple LLM agents and trace their execution.
+- Multi-agent orchestration, OpenTelemetry tracing
+- **Stack:** Python, FastAPI, LangGraph
+- **Repo:** [link]
 
-## 📫 Let's Build the Future
+---
 
-I'm open for **AI/MLOps collaborations**, **remote internship opportunities**, and **research contributions**.
+## 🛠️ Tech Stack
 
-📧 **alikheiri10313@gmail.com**
-🌐 **Hippogriff.ir**
-🤝 **Open to interesting projects — reach out!**
+**Languages:** TypeScript, Python, SQL, JavaScript
+**Backend:** NestJS, FastAPI, Express
+**Databases:** PostgreSQL, Redis, MongoDB
+**Infrastructure:** Docker, GitHub Actions, Nginx
+**AI/ML:** scikit-learn, MLflow, LangChain
+
+> I list only tools I've used in real projects, not everything I've read about.
+
+---
+
+## 📚 Currently Learning
+
+- Distributed systems (consensus, consistency, fault tolerance)
+- Advanced PostgreSQL (indexing, query planning, locking)
+- System design for backend interviews
+- OAuth2, OIDC, WebAuthn
+
+---
+
+## 📫 Contact
+
+- **Email:** alikheiri10313@gmail.com
+- **Website:** hippogriff.ir
+- **LinkedIn:** [link]
+
+I'm looking for **backend engineering internships** and **open-source collaborations**  
+where I can learn from real codebases and contribute meaningfully.
