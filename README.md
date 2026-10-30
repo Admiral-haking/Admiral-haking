@@ -73,8 +73,8 @@ A small framework to chain multiple LLM agents and trace their execution.
 ## 📫 Contact
 
 - **Email:** alikheiri10313@gmail.com
-- **Website:** hippogriff.ir
-- **LinkedIn:** [link]
+- **Website:** teamcore.ir
+- **LinkedIn:** [https://www.linkedin.com/in/ali-khairi/]
 
 I'm looking for **backend engineering internships** and **open-source collaborations**  
 where I can learn from real codebases and contribute meaningfully.
